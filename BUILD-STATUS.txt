@@ -1,0 +1,61 @@
+hooniganinsurance.com — BUILD STATUS
+======================================
+Build: GREEN (next build exits 0)
+Last build: 2026-06-25 (Worker B design pass)
+.next/BUILD_ID: K_OCT5ALttgv24AGB4jFw
+
+QUALITY GATE CHECKLIST
+----------------------
+✅ 5 service pages (modified-car, drift-car, show-car, track-day, custom-parts)
+✅ 4 blog posts 750w+ each (MDX in src/content/posts/)
+✅ 11 homepage sections (Hero, TrustBar, ServicesGrid, ProblemSection, WhyChooseUs,
+   Process, CoverageBreakdown, Stats, BlogCards, FAQ, CTABand) — Testimonials removed (SOP §5)
+✅ next build exits 0 — 22 static routes generated
+✅ 9 real HF FLUX.1-schnell generated images (all >10KB, via gen-images.sh — NOT fal)
+✅ Netlify Forms pattern (quote + contact)
+✅ sitemap.ts + robots.ts + public/llms.txt present
+
+ROUTE COUNT: 22 routes
+- / (homepage)
+- /about
+- /blog
+- /blog/modified-car-insurance-complete-guide
+- /blog/drift-car-insurance-caged-builds
+- /blog/show-car-insurance-custom-paint
+- /blog/track-day-insurance-hpde-coverage-gap
+- /contact
+- /privacy
+- /quote
+- /robots.txt
+- /services
+- /services/modified-car-insurance
+- /services/drift-car-insurance
+- /services/show-car-insurance
+- /services/track-day-insurance
+- /services/custom-parts-coverage
+- /sitemap.xml
+- /terms
+- /_not-found  (+ /blog/[slug], /services/[slug] SSG)
+
+DESIGN SYSTEM (Worker B — dark garage aesthetic, blueprint §8)
+--------------------------------------------------------------
+Canvas: #0C0D11 (carbon) · Card: #161920 (gunmetal) · Ink: #F5F6F8 (near-white)
+Brand: #F25C18 (racing orange — identity + primary CTA) · Chrome: #A8AFB8 (brushed aluminum)
+Peak sections: #08090B (deepest carbon — Stats/CTA/Footer/TrustBar)
+Fonts: Oswald (condensed headings, uppercase display) + Inter (body)
+Style: Performance / garage culture / enthusiast-authentic — NOT corporate beige.
+Legacy aliases (forest-green/ember-orange/warm-white/bark/timber/border → dark palette)
+keep C-owned page files compiling without edits.
+
+IMAGES (9 total, HF FLUX)
+--------------------------
+hero-main.jpg, agent-handshake.jpg, niche-overview.jpg, business-owner.jpg,
+industry-shot.jpg, aerial-view.jpg, policy-documents.jpg, protection-concept.jpg,
+team-review.jpg  (+ og-image.jpg = hero copy; about-agent.jpg, blog-default.jpg retained)
+
+STACK
+-----
+Next.js 15.5.19 · React 19 · TypeScript · Tailwind v3.4 · motion · lenis · lucide-react · gray-matter
+
+NOTE: Source-ready. Worker C content polish (find-replace artifacts in C-owned page
+files, form styling, verify STATS) still owed — see handoff/02-design.md §8.

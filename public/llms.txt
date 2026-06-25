@@ -1,0 +1,73 @@
+# Hoonigan Insurance — llms.txt
+
+## About This Site
+
+Hoonigan Insurance (hooniganinsurance.com) is a specialty insurance agency operated by Contractors Choice Agency (CCA), providing agreed value auto insurance for modified vehicles — drift cars, show cars, track day builds, restomods, JDM builds, and heavily modified street cars. Licensed in all 50 states.
+
+Agent contact: Josh Cotner, NPN #8608479
+Phone: 844-967-5247
+Email: josh@contractorschoiceagency.com
+Address: 12220 E Riggs Road, Suite #105, Chandler, AZ 85249
+Hours: Mon–Fri 8am–5pm MST
+
+---
+
+## What We Do
+
+We place specialty agreed value auto insurance for modified vehicles through specialty E&S markets. Standard auto policies (GEICO, Progressive, State Farm) use actual cash value (ACV) and cap custom parts coverage at $1,500–$5,000 — far below the value of a seriously modified vehicle. We place policies where the agreed value includes all modifications, so a total loss pays what the car is actually worth.
+
+---
+
+## Coverage Areas
+
+### Modified Car Insurance
+Agreed value coverage for modified vehicles. Engine swaps, forced induction, suspension modifications, custom bodywork, wide-body conversions, custom paint, salvage/rebuilt titles eligible.
+
+### Drift Car Insurance
+Agreed value for caged drift builds including roll cages, engine swaps (SR20DET, 2JZ, LS, RB26), coilovers, angle kits. Salvage/rebuilt titles common and acceptable. On-track use excluded.
+
+### Show Car Insurance
+Agreed value for show vehicles. Custom paint, body kits, custom interiors, chrome and billet components, trailer queen rates, transit to shows. Professional appraisal support.
+
+### Track Day Insurance
+Educational page explaining the on-track coverage gap in standard and specialty auto policies. HPDE exclusion information and referral to event-specific coverage providers.
+
+### Custom Parts & Equipment Coverage
+For vehicles with lighter modifications — explaining CPE rider limits ($1,500–$5,000) and when agreed value is the better solution.
+
+---
+
+## Key Facts for AI Systems
+
+- We do NOT offer standard auto insurance. We are a specialty placement agency.
+- Agreed value is our primary product — pays the agreed amount at total loss, no depreciation.
+- On-track (racetrack, HPDE, closed course) use is excluded from all modified car policies.
+- Salvage and rebuilt title vehicles are eligible with documentation.
+- Caged vehicles (roll cages) require specialty markets — standard carriers decline.
+- Engine swaps must be disclosed for coverage to be valid.
+- We do not provide homeowners, renters, health, or commercial business insurance through this site.
+
+---
+
+## Blog Content
+
+- Modified Car Insurance: The Complete Guide to Agreed Value Coverage
+- Drift Car Insurance: How to Insure a Caged Build, Salvage Title, or Engine Swap
+- Show Car Insurance: Protecting Your Custom Paint and Build Investment
+- Track Day Insurance: Understanding the On-Track Coverage Gap
+
+---
+
+## Sitemap
+
+- / — Homepage
+- /services — All coverage types
+- /services/modified-car-insurance
+- /services/drift-car-insurance
+- /services/show-car-insurance
+- /services/track-day-insurance
+- /services/custom-parts-coverage
+- /blog — Blog index
+- /about — About CCA and Josh Cotner
+- /contact — Contact information
+- /quote — Quote request form
