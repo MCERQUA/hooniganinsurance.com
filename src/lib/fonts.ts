@@ -1,4 +1,4 @@
-import { Oswald, Inter } from "next/font/google";
+import localFont from "next/font/local";
 
 // Garage typography (blueprint §8): bold condensed sans-serif headings
 // (Oswald — athletic, motorsport, "impact & authority") + clean readable body
@@ -6,16 +6,24 @@ import { Oswald, Inter } from "next/font/google";
 // headings render uppercase for high-energy builder feel; body stays in Inter.
 // Export names + CSS vars are unchanged from the template so layout.tsx and the
 // `font-heading` / `font-body` Tailwind families keep working untouched.
-export const headingFont = Oswald({
-  subsets: ["latin"],
+export const headingFont = localFont({
+  src: [
+    { path: "./fonts/Oswald-variable.woff2", weight: "400", style: "normal" },
+    { path: "./fonts/Oswald-variable.woff2", weight: "500", style: "normal" },
+    { path: "./fonts/Oswald-variable.woff2", weight: "600", style: "normal" },
+    { path: "./fonts/Oswald-variable.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-heading",
-  weight: ["400", "500", "600", "700"],
   display: "swap",
 });
 
-export const bodyFont = Inter({
-  subsets: ["latin"],
+export const bodyFont = localFont({
+  src: [
+    { path: "./fonts/Inter-variable.woff2", weight: "400", style: "normal" },
+    { path: "./fonts/Inter-variable.woff2", weight: "500", style: "normal" },
+    { path: "./fonts/Inter-variable.woff2", weight: "600", style: "normal" },
+    { path: "./fonts/Inter-variable.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-body",
-  weight: ["400", "500", "600", "700"],
   display: "swap",
 });
